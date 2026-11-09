@@ -1,0 +1,10 @@
+project: savantenvs/luanti
+target: fuzz_gltf-mined-e60c896
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_gltf-mined-e60c896/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_gltf
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_gltf-mined-e60c896/fuzz_gltf-mined-e60c896.dict
+    timeout: 10
