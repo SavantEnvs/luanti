@@ -1,0 +1,10 @@
+project: savantenvs/luanti
+target: fuzz_schematic
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_schematic/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_schematic
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_schematic/fuzz_schematic.dict
+    timeout: 10
