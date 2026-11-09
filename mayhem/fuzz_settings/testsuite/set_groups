@@ -1,0 +1,12 @@
+default_privs = {
+  interact = true
+}
+nodes = {
+  [stone]
+}
+a.b.c = 1
+bad line without equals
+=novalue
+key =
+  = x
+#comment

@@ -1,0 +1,11 @@
+# Luanti configuration
+name = singleplayer
+enable_damage = true
+creative_mode = false
+server_announce = false
+port = 30000
+mg_flags = caves,dungeons,light,decorations,biomes
+mg_name = v7
+max_users = 15
+motd = """Welcome to
+a multiline motd"""

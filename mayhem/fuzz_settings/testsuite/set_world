@@ -1,0 +1,7 @@
+gameid = devtest
+world_name = test world
+backend = sqlite3
+player_backend = sqlite3
+auth_backend = files
+mod_storage_backend = sqlite3
+load_mod_default = true

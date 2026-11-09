@@ -1,0 +1,9 @@
+project: savantenvs/luanti
+target: fuzz_serialization
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_serialization/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_serialization
+    libfuzzer: true
+    timeout: 10

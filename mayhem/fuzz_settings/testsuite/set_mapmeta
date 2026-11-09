@@ -1,0 +1,7 @@
+mg_name = v7
+seed = 8829302857374019
+water_level = 1
+chunksize = 5
+mg_flags = caves, dungeons, light, decorations, biomes, nocaves
+mgv7_spflags = mountains, ridges, floatlands, caverns
+[end_of_params]
